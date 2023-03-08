@@ -1,292 +1,228 @@
-img,
-picture,
-video {
-  max-width: 100%;
+/* font-family: 'Cormorant Garamond', serif;
+font-family: 'Rubik', sans-serif; */
+
+.skip-link {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  border: 0;
 }
 
-h1 {
-  font-size: 4rem;
-}
-
-h2 {
+.skip-link:focus{
+  width: unset;
+  height: unset;
+  position: relative;
+  padding: unset;
+  margin: unset;
   font-size: 2rem;
 }
 
-.headline {
-  width: 100%;
-/*  background-image: url("../img/will_at_museum.jpg");*/
-background-clip: content-box;
-background-color: teal;
+html {
+font-size: 20px;
 }
 
-.headline img {
-  max-width: 100%;
+body {
+  margin: 0px;
+  background-color: #E3AD16;
+  font-family: 'Cormorant Garamond', serif;
 }
 
-
-.maindiv {
-  width: 100%;
-  background-image: url("../img/will_at_museum.jpg");
-  background-color: gold;
-  float: left;
+main {
+  width: 90%;
+  max-width: 1000px;
+  background: #FFF;
+  border-radius: 1rem;
+  padding: 1rem 2rem;
+  box-sizing: border-box;
+  margin: 1rem auto;
 }
 
-.bookimage {
-  display: inline-block;
-  float: left;
+/*beginning updated nav and ul, ol*/
+nav {
+  color: #E3AD16;
+  background-color: #000000;
+  padding: 0;
+  display: block;
+  margin: 0;
+  border-bottom: 3px solid #FFF;
 }
 
-
-.bookimage img {
-  margin: .3rem;
-  max-width:300px;
-/*  max-height: 200px;*/
-
+ul, ol {
+  list-style-type: none;
+  padding-inline-start: 0px;
+  margin-block-start: 0px;
+  margin-block-end: 0px;
 }
 
+/*end of updated nav and ul, ol*/
 
-.bitter  p {
-  font-family: 'Bitter', serif;
-
-  text-transform: ;
-  font-weight: 400;
-/*  max-width: 50%;*/
-  padding: 0.1rem;
-  border: solid blueviolet; 1px;
-
-}
-.lorem p {
-  font-family: 'Open Sans', sans-serif;
-  text-transform: capitalize;
-  font-weight: 600;
-/*  max-width: 100%;*/
-  padding: 0.1rem;
-  border: solid black 1px;
-
-}
-.nav1 {
-  background-color: white;
-  position: sticky;
-/*  top: 40px; left: 40px;*/
-  float: right !important;
-  font-family: 'Open Sans', sans-serif;
-  text-transform: uppercase;
-  font-weight: 800;
-  max-width: 40%;
-  min-width: 10%;
-/*  margin: 5rem;*/
-  margin: .1rem .2rem .1rem .1rem;
-  border: dashed red 0.5px;
-  padding: .1rem .1rem .1rem .1rem;
-  
-
-
+nav a {
+  color: #E3AD16;
 }
 
-.nav2 {
-  float: left;
-  margin: 0.1rem;
-  padding: 0.1rem;
-  background-color: lightgray;
-  border: solid lightgray 1px;
-  border-radius: 2px;
-}
-
-.nav2 a {
+a {
+  font-weight: bold;
+  font-style: italic;
   text-decoration: none;
 }
 
-.nav2:hover {
-  background-color: red;
+h1, h2, h3 {
+  font-family: 'Rubik', sans-serif;
+  margin: 0
 }
 
-
-.form-1 {
-  position: sticky;
-  top: 30px;
-  background-color: rgba(0, 181, 229, .6);
-  color: lightgray;
-/*background: linear-gradient(217deg, rgba(255,0,0,.8), rgba(255,0,0,0) 70.71%),*/
-/*            linear-gradient(127deg, rgba(0,255,0,.8), rgba(0,255,0,0) 70.71%),*/
-/*            linear-gradient(336deg, rgba(0,0,255,.8), rgba(0,0,255,0) 70.71%);*/
-/*  background: linear-gradient(#00B5E5, #BF6500);*/
-  margin: 2rem;
-
-}
-
-.smallimage {
-  position: ;
-
-}
-
-
-
-
-.mark-img 
-  {
-    float: left;
-    margin: 3px;
-    /*padding-right: 10px;*/
-    max-height: 3.5rem;
-    margin-top: 0.5rem;
-
-
-  }
-
-.project-thumb {
-  float: left;
-  padding:.2rem;
-  
-}
-
-.project-img {
-  
-  float: left;
-  padding:0.1rem;
-  margin-right:5px;
-  margin-bottom: 1rem;
-  margin-top: 0rem;
-  max-width: 100%;
-  
-}
-
-
-
-
-
-.container {
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
-}
-
-
-
-@media only screen and (min-width: 700px) {
-
-  body {
-    background-color: darkred;
-
-  }
-  .bitter {
-    font-family: 'Lobster', cursive !important;
-  }
-
-  .nav1 {
-    background-color: white;
-    position: sticky;
-    top: 10px; left: 5px;
-    float: left !important;
-    font-family: 'Bitter', sans-serif;
-    text-transform: lowercase;
-    font-weight: 100;
-    max-width: 40%;
-    min-width: 10%;
-    padding: 0.1rem 0.3rem 0.1rem 0.3rem;
-  
-
-  }
-  .nav2 {
-    display: inline-block;
-  float: left;
-  margin: 0.1rem;
-  background-color: white;
-  }
-
-}
-@media screen and (min-width: 600px) and (max-width: 699px){
-
-  body {
-    background-color: limegreen;
-  }
-
-}
-
-@media screen and (min-width: 401px) and (max-width: 599px){
-    
-    body {
-    background-color: skyblue;
-    font-family: 'Bitter', sans-serif;
-  }
-
-  .nav1 {
-    background-color: white;
-    position: sticky;
-    top: 5px; left: 5px;
-    float: left !important;
-    font-family: 'Open Sans', sans-serif;
-    text-transform: lowercase;
-    font-weight: 100;
-    font-size: 0.5rem;
-    max-width: 100%;
-    min-width: 10%;
-  /*  margin: 5rem;*/
-  /*  margin: 1rem 2rem 1rem 1rem;*/
-  /*  border: dashed red;*/
-    padding: .1rem .1rem .1rem .3rem;
-  
-
-  }
-  h1 {
-    font-size: 1.5rem;
-  }
-
-  p {
-    font-size: 0.8rem;
-  }
-    .lorem p{
-/*  font-family: 'Open Sans', sans-serif;*/
-  text-transform: lowercase;
+h2 {
+  font-weight: 700;
   font-style: italic;
-  font-weight: 600;
-/*  max-width: 100%;*/
-  padding: 0.1rem;
-  border: solid black 1px;
+}
+
+li {
+  list-style-type: none;
+  font-style: italic;
+}
+
+ol li {
+  text-transform: uppercase;
+}
+
+nav li, nav li a {
+  width: 100%;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.active {
+  background-color: #E3AD16;
+  color: #000;
+  padding: 1rem;
+}
+
+/*Footer section*/
+footer {
+  background: #000;
+  color: #E3AD16;
+  width: 100%;
+  margin: 0;
+  padding: 1rem;
+  box-sizing: border-box;
+  text-align: center;
+  font-weight: bold;
+}
+
+/*Media sections*/
+.location-holder, .media-holder {
+  width: 100%;
+  margin: 4rem 0;
+  display: flex;
+  flex-direction: column;
+  gap: 1.2rem;
+  box-sizing: border-box;
+}
+
+.image-holder, .text-holder {
+  width: 100%;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  box-sizing: border-box;
+}
+
+.image-holder img {
+  width: 100%;
+  max-width: 250px;
+  margin: 0 auto;
+}
+
+address {
+  font-style: normal;
+}
+
+/*figure and .gallery-image styles*/
+
+.gallery-image {
+  margin-block-start: 0;
+  margin-block-end: 0;
+  margin-inline-start: 0;
+  margin-inline-end: 0;
+  margin: 4rem auto;
+  width: 100%;
+  max-width: 700px;
+}
+
+.gallery-image img {
+  width: 100%;
+}
+
+.button_holder {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-top: 1rem;
+}
+
+.hideThis {
+  display: none;
+}
+
+button {
+  background-color: #E3AD16;
+  border: none;
+  color: #000;
+  text-align: center;
+  text-decoration: none;
+  font-weight: bold;
+  display: block;
+  cursor: pointer;
+  width: 100px;
+  padding: 0.8rem 1rem;
+  border-radius: 5px;
+}
+
+/*When the browser is at least 555px wide*/
+@media (min-width: 555px) {
+
+  .media-holder {
+    flex-direction: row;
+  }
+
+  .image-holder {
+    width: 30%;
+  }
+
+  .media-list .text-holder {
+    width: 70%;
+  }
+
+  nav ul {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+
+  nav li {
+    width: 50%;
+  }
 
 }
 
-}
+/*When the browser is at least 800px wide*/
+@media (min-width: 800px) {
 
-@media screen and (max-width: 400px){
-    
-  body {
-      background-color: orangered;
-    }
-  .nav1 {
-    background-color: white;
-    position: sticky;
-    bottom: 5px; right: 5px;
-    float: right !important;
-    font-family: 'Open Sans', sans-serif;
-    text-transform: lowercase;
-    font-weight: 100;
-    font-size: 0.3rem;
-    max-width: 100%;
-    min-width: 10%;
-  /*  margin: 5rem;*/
-  /*  margin: 1rem 2rem 1rem 1rem;*/
-  /*  border: dashed red;*/
-    padding: .1rem .1rem .1rem .3rem;
-  
-
-  }
-  h1 {
-    font-size: 1rem;
+  .image-holder {
+    width: 250px;
   }
 
-  .headline {
-    max-width: 100%;
-    /*  background-image: url("../img/will_at_museum.jpg");*/
-    background-clip: content-box;
-    background-color: teal;
-    }
-
-    .headline img {
-      max-width: 100%;
-    }
-
-
-  p {
-    font-size: 0.5rem;
+  .media-list .text-holder {
+    width: calc(100% - 250px);
   }
 
+  nav li {
+    width: 25%;
+  }
 }
