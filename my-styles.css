@@ -71,7 +71,7 @@ a {
 }
 
 h1, h2, h3 {
-  font-family: 'Rubik', sans-serif;
+ font-family: 'Playfair Display', serif;
   margin: 0
 }
 
@@ -81,7 +81,7 @@ h2 {
 }
 
 li {
-  list-style-type: none;
+  font-family: 'Lato', sans-serif
   font-style: italic;
 }
 
