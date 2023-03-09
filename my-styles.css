@@ -40,8 +40,8 @@ font-size: 20px;
 main {
   width: 90%;
   max-width: 1000px;
-  background: #FFF;
-  border-radius: 1rem;
+  background: #f7f1e9;
+  border-radius: 0px;
   padding: 1rem 2rem;
   box-sizing: border-box;
   margin: 1rem auto;
@@ -182,7 +182,7 @@ address {
 button {
   background-color: #fcebf1;
   border: none;
-  color: #000;
+  color: #5173c2;
   text-align: center;
   text-decoration: none;
   font-weight: bold;
