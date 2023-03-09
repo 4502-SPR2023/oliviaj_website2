@@ -34,8 +34,8 @@ body {
 main {
   width: 90%;
   max-width: 1000px;
-  background: #FFF;
-  border-radius: 1rem;
+  background: #c9dbc9;
+  border-radius: 0rem;
   padding: 1rem 2rem;
   box-sizing: border-box;
   margin: 1rem auto;
@@ -59,10 +59,10 @@ ul, ol {
 }
 
 img {
-  border: 1px solid #ddd;
-  border-radius: 4px;
-  padding: 5px;
-  width: 150px;
+  border: 2px solid #ddd;
+  border-radius: 8px;
+  padding: 10px;
+  width: 300px;
 }
 
 <img src="img/headsot-oj.jpg" alt="headshot of Olivia for resumés and portfolios">
