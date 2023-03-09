@@ -110,10 +110,6 @@ li {
   font-style: italic;
 }
 
-ol li {
-  text-transform: uppercase;
-}
-
 nav li, nav li a {
   width: 100%;
   text-align: center;
