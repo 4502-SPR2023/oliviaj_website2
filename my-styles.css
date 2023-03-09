@@ -80,6 +80,15 @@ ul, ol {
   margin-block-start: 0px;
   margin-block-end: 0px;
 }
+  
+.img {
+  border: 2px solid #ddd;
+  border-radius: 8px;
+  padding: 10px;
+  width: 300px;
+}
+
+<img src="img/headshot-oj.jpg" alt="headshot of Olivia for resumés and portfolios">
 
 /*end of updated nav and ul, ol*/
 
