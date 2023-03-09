@@ -26,7 +26,7 @@ font-size: 20px;
 
 body {
   margin: 0px;
-  background-color: #E3AD16;
+  background-color: #004c4c;
   font-family: 'Cormorant Garamond', serif;
 }
 
@@ -42,8 +42,8 @@ main {
 
 /*beginning updated nav and ul, ol*/
 nav {
-  color: #E3AD16;
-  background-color: #000000;
+  color: #004c4c;
+  background-color: #CC5500;
   padding: 0;
   display: block;
   margin: 0;
@@ -60,7 +60,7 @@ ul, ol {
 /*end of updated nav and ul, ol*/
 
 nav a {
-  color: #E3AD16;
+  color: #004c4c;
 }
 
 a {
@@ -97,15 +97,15 @@ nav li, nav li a {
 }
 
 .active {
-  background-color: #E3AD16;
+  background-color: #004c4c;
   color: #000;
   padding: 1rem;
 }
 
 /*Footer section*/
 footer {
-  background: #000;
-  color: #E3AD16;
+  background: #CC5500;
+  color: #004c4c;
   width: 100%;
   margin: 0;
   padding: 1rem;
@@ -171,9 +171,9 @@ address {
 }
 
 button {
-  background-color: #E3AD16;
+  background-color: #004c4c;
   border: none;
-  color: #000;
+  color: #CC5500;
   text-align: center;
   text-decoration: none;
   font-weight: bold;
