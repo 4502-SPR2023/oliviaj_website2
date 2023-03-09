@@ -43,6 +43,7 @@ main {
 h1 { 
   font-family: 'Bebas Neue', cursive;
   margin: 0;
+  align-items: center;
 }
 
 h2 {
