@@ -27,15 +27,14 @@ font-size: 20px;
 
 body {
   margin: 0px;
-  background-color: #004c4c;
-  font-family: 'Cormorant Garamond', serif;
+  background-color: #f2e9ea;
 }
 
 main {
   width: 90%;
   max-width: 1000px;
   background: #c9dbc9;
-  border-radius: 0rem;
+  border-radius: 0px;
   padding: 1rem 2rem;
   box-sizing: border-box;
   margin: 1rem auto;
