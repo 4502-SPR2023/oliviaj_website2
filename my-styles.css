@@ -40,6 +40,20 @@ main {
   margin: 1rem auto;
 }
 
+h1 { 
+  font-family: 'Bebas Neue', cursive;
+  margin: 0;
+}
+
+h2 {
+ font-family: 'Playfair Display', serif;
+  margin: 0;
+  font-weight: 700;
+}
+
+h3 {
+  font-family: 'Lato', sans-serif;
+
 /*beginning updated nav and ul, ol*/
 nav {
   color: #004c4c;
