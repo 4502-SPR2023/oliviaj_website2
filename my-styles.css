@@ -27,7 +27,7 @@ font-size: 20px;
 
 body {
   margin: 0px;
-  background-color: #f2e9ea;
+  background-color: #005C46;
 }
 
 main {
@@ -161,8 +161,7 @@ footer {
   width: 100%;
   max-width: 250px;
   margin: 0 auto;
-}
-
+  
 address {
   font-style: normal;
 }
