@@ -23,30 +23,16 @@ font-family: 'Playfair Display', serif; */
 
 html {
 font-size: 20px;
-  background: url(img/floral.jpg) no-repeat center center fixed; 
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
 }
    
   /* Location of the image */ 
   body { 
      margin: 0px;
-    background-image: url(img/floral.jpg); 
-    /* Background image is centered vertically and horizontally at all times */
-    background-position: center center; 
-    /* Background image doesn’t tile */
+    background-image: <img src= "img/floral.jpg" alt="floral background for website">
+    background-position: center, center; 
     background-repeat: no-repeat; 
-    /* Background image is fixed in the viewport
-    so that it doesn’t move when the content’s
-    height is greater than the image’s height */ 
     background-attachment: fixed; 
-    /* This is what makes the background image 
-    rescale based on the container’s size */ 
-    background-size: cover; /* Set a background color 
-    that will be displayed while the background image 
-    is loading */ 
+    background-size: cover; 
     background-color: #fcebf1;
     font-family: 'Playfair Display', serif;
 }
