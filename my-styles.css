@@ -137,6 +137,7 @@ footer {
   flex-direction: column;
   gap: 1.2rem;
   box-sizing: border-box;
+  color:#e0ffff;
 }
 
 .image-holder, .text-holder {
@@ -146,6 +147,7 @@ footer {
   display: flex;
   flex-direction: column;
   box-sizing: border-box;
+  color:#e0ffff;
 }
 
 .image-holder img {
