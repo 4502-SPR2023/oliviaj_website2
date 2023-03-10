@@ -23,12 +23,8 @@ font-family: 'Playfair Display', serif; */
 
 html {
 font-size: 20px;
-  background-image: <img src="img/floral.jpg" alt="floral background for website">
-    background-position: center, center; 
-    background-repeat: no-repeat; 
-    background-attachment: fixed; 
-    background-size: cover; 
 }
+  
    
   /* Location of the image */ 
 <style> 
@@ -36,18 +32,11 @@ body {
      margin: 0px;
     font-family: 'Playfair Display', serif;
   background-image: url("img/floral.jpg");
-  background-repeat: no-repeat;
-}
+    background-position: center, center; 
+    background-repeat: no-repeat; 
+    background-attachment: fixed; 
+    background-size: cover; 
 </style>
-}
-
-.floralimg {
-  background-image: <img src="img/floral.jpg" alt="Floral background photo">; /* The image used */
-  background-color: #f7f1e9; /* Used if the image is unavailable */
-  height: 500px; /* You must set a specified height */
-  background-position: center; /* Center the image */
-  background-repeat: no-repeat; /* Do not repeat the image */
-  background-size: cover; /* Resize the background image to cover the entire container */
 }
 
 main {
