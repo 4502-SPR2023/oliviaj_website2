@@ -79,7 +79,7 @@ ul, ol {
 /*end of updated nav and ul, ol*/
 
 nav a {
-  color: #fae1ea;
+  color: #F9B4F6;
 }
 
 a {
@@ -122,15 +122,15 @@ nav li, nav li a {
 }
 
 .active {
-  background-color: #fae1ea;
-  color: #5173c2;
+  background-color: #F9B4F6;
+  color: #05445E;
   padding: 1rem;
 }
 
 /*Footer section*/
 footer {
-  background: #fae1ea;
-  color: #5173c2;
+  background: #F9B4F6;
+  color: #05445E;
   width: 100%;
   margin: 0;
   padding: 1rem;
@@ -202,9 +202,9 @@ address {
 }
 
 button {
-  background-color: #fae1ea;
+  background-color: #F9B4F6;
   border: none;
-  color: #5173c2;
+  color: #05445E;
   text-align: center;
   text-decoration: none;
   font-weight: bold;
