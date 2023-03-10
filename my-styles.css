@@ -48,8 +48,16 @@ main {
   margin: 1rem auto;
 }
 
-headshot {
-  align-items: center;
+
+img {
+	border: none;
+	display: flex;
+    justify-content: center;
+    
+}
+
+a img {
+	border: none;
 }
 /*beginning updated nav and ul, ol*/
 nav {
