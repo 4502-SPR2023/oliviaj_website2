@@ -178,22 +178,6 @@ address {
 align-items: center;
 }
 
-img {
-	border: none;
-	display: flex;
-    justify-content: center;
-    
-}
-
-a img {
-	border: none;
-.button_holder {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-  margin-top: 1rem;
-}
-
 .hideThis {
   display: none;
 }
