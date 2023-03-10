@@ -119,13 +119,6 @@ nav li, nav li a {
   padding: 1rem;
 }
 
-.headshot {
-    border: 2px solid #ddd;
-  border-radius: 8px;
-  padding: 10px;
-  width: 300px;
-}
-
 /*Footer section*/
 footer {
   background: #fae1ea;
@@ -183,6 +176,12 @@ address {
   width: 100%;
 }
 
+.headshot {
+    border: 2px solid #ddd;
+  border-radius: 8px;
+  padding: 10px;
+  width: 300px;
+}
 .button_holder {
   display: flex;
   flex-direction: row;
