@@ -27,7 +27,6 @@ font-size: 20px;
   
    
   /* Location of the image */ 
-<style> 
 body { 
      margin: 0px;
     font-family: 'Playfair Display', serif;
@@ -37,7 +36,7 @@ body {
     background-attachment: fixed; 
     background-size: cover; 
 }
-</style>
+
 
 main {
   width: 90%;
