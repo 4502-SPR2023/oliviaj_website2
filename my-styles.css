@@ -63,6 +63,7 @@ ul, ol {
   padding-inline-start: 0px;
   margin-block-start: 0px;
   margin-block-end: 0px;
+  color: #e0ffff;
 }
 
 /*end of updated nav and ul, ol*/
@@ -89,17 +90,18 @@ h2 {
   margin: 0
   font-weight: 700;
   font-style: italic;
-  color: white;
+  color: #e0ffff;
 }
 
 h3 { 
   font-family: 'Lato', sans-serif;
-  color: white
+  color: #e0ffff;
 }
 
 li {
   list-style-type: none;
   font-style: italic;
+  color: #e0ffff;
 }
 
 nav li, nav li a {
@@ -185,6 +187,8 @@ align-items: center;
   flex-direction: row;
   justify-content: space-between;
   margin-top: 1rem;
+  border: none;
+    justify-content: center;
 }
 
 .hideThis {
