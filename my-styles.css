@@ -178,6 +178,13 @@ address {
 align-items: center;
 }
 
+.button_holder {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-top: 1rem;
+}
+
 .hideThis {
   display: none;
 }
