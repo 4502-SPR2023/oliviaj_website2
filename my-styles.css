@@ -28,7 +28,7 @@ font-size: 20px;
   /* Location of the image */ 
   body { 
      margin: 0px;
-    background-image: <img src= "img/floral.jpg" alt="floral background for website">
+    background-image: url("img/floral.jpg") alt="floral background for website">
     background-position: center, center; 
     background-repeat: no-repeat; 
     background-attachment: fixed; 
