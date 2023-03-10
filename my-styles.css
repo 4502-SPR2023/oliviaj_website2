@@ -48,6 +48,13 @@ main {
   margin: 1rem auto;
 }
 
+.headshot {
+    border: 2px solid #ddd;
+  border-radius: 8px;
+  padding: 10px;
+  width: 300px;
+}
+
 /*beginning updated nav and ul, ol*/
 nav {
   color: #fae1ea;
