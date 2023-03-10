@@ -47,12 +47,10 @@ main {
   box-sizing: border-box;
   margin: 1rem auto;
 }
-
-.headshot {
-    border: 2px solid #ddd;
-  border-radius: 8px;
-  padding: 10px;
-  width: 300px;
+h1 { 
+  font-family: 'Bebas Neue', cursive;
+  color: 
+  text-align: center;
 }
 
 /*beginning updated nav and ul, ol*/
@@ -70,6 +68,13 @@ ul, ol {
   padding-inline-start: 0px;
   margin-block-start: 0px;
   margin-block-end: 0px;
+}
+
+.headshot {
+    border: 2px solid #ddd;
+  border-radius: 8px;
+  padding: 10px;
+  width: 300px;
 }
 
 /*end of updated nav and ul, ol*/
