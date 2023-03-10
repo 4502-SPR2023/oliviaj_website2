@@ -23,16 +23,16 @@ font-family: 'Playfair Display', serif; */
 
 html {
 font-size: 20px;
+  background-image: <img src="img/floral.jpg" alt="floral background for website">
+    background-position: center, center; 
+    background-repeat: no-repeat; 
+    background-attachment: fixed; 
+    background-size: cover; 
 }
    
   /* Location of the image */ 
   body { 
      margin: 0px;
-    background-image: <img src="img/floral.jpg" alt="floral background for website">
-    background-position: center, center; 
-    background-repeat: no-repeat; 
-    background-attachment: fixed; 
-    background-size: cover; 
     font-family: 'Playfair Display', serif;
 }
 
