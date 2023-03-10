@@ -51,7 +51,7 @@ main {
 /*beginning updated nav and ul, ol*/
 nav {
   color: #F9B4F6;
-  background-color: #05445E;
+  background-color: #002147;
   padding: 0;
   display: block;
   margin: 0;
@@ -110,14 +110,14 @@ nav li, nav li a {
 
 .active {
   background-color: #F9B4F6;
-  color: #05445E;
+  color: #002147;
   padding: 1rem;
 }
 
 /*Footer section*/
 footer {
   background: #F9B4F6;
-  color: #05445E;
+  color: #002147;
   width: 100%;
   margin: 0;
   padding: 1rem;
@@ -192,7 +192,7 @@ align-items: center;
 button {
   background-color: #F9B4F6;
   border: none;
-  color: #05445E;
+  color: #002147;
   text-align: center;
   text-decoration: none;
   font-weight: bold;
