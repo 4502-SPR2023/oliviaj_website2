@@ -27,11 +27,6 @@ font-size: 20px;
   
    
   /* Location of the image */ 
-h1 { 
-  font-family: 'Bebas Neue', cursive;
-  color: 
-  text-align: center;
-}
 
 body { 
      margin: 0px;
@@ -51,6 +46,10 @@ main {
   padding: 1rem 2rem;
   box-sizing: border-box;
   margin: 1rem auto;
+}
+
+.headshot {
+  align-items: center;
 }
 
 /*beginning updated nav and ul, ol*/
@@ -84,8 +83,9 @@ a {
 
 h1 { 
   font-family: 'Bebas Neue', cursive;
-  color: 
   text-align: center;
+  align-items: center;
+  color: 
 }
   
   
