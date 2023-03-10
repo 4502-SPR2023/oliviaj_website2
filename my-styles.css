@@ -79,6 +79,8 @@ a {
 
 h1 { 
   font-family: 'Bebas Neue', cursive;
+  color: 
+  text-align: center;
 }
   
   
@@ -108,14 +110,14 @@ nav li, nav li a {
 
 .active {
   background-color: #fae1ea;
-  color: #000;
+  color: #5173c2;
   padding: 1rem;
 }
 
 /*Footer section*/
 footer {
-  background: #000;
-  color: #fae1ea;
+  background: #fae1ea;
+  color: #5173c2;
   width: 100%;
   margin: 0;
   padding: 1rem;
