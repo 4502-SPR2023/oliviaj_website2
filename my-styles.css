@@ -64,7 +64,8 @@ ul, ol {
   padding-inline-start: 0px;
   margin-block-start: 0px;
   margin-block-end: 0px;
-  color: #e0ffff;
+  color: #e0ffff; 
+  font-family: 'Lato', sans-serif;
 }
 
 .photo {
