@@ -48,10 +48,6 @@ main {
   margin: 1rem auto;
 }
 
-div {
-      display: flex;
-      justify-content: center;
-    }
 
 /*beginning updated nav and ul, ol*/
 nav {
@@ -71,6 +67,10 @@ ul, ol {
   color: #e0ffff;
 }
 
+div {
+      display: flex;
+      justify-content: center;
+    }
 /*end of updated nav and ul, ol*/
 
 nav a {
