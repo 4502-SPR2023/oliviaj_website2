@@ -67,7 +67,7 @@ ul, ol {
   color: #e0ffff;
 }
 
-div {
+.photo {
       display: flex;
       justify-content: center;
     }
