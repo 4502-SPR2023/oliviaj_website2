@@ -41,7 +41,7 @@ body {
 main {
   width: 90%;
   max-width: 1000px;
-  background: #e0ffff;
+  background: #002147;
   border-radius: 0px;
   padding: 1rem 2rem;
   box-sizing: border-box;
@@ -62,8 +62,8 @@ a .headshot{
 
 /*beginning updated nav and ul, ol*/
 nav {
-  color: #002147;
-  background-color: #e0ffff;
+  color: #e0ffff;
+  background-color: #002147;
   padding: 0;
   display: block;
   margin: 0;
