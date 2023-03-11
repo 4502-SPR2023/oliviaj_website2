@@ -48,17 +48,6 @@ main {
   margin: 1rem auto;
 }
 
-img {
-	border: none;
-	display: flex;
-    justify-content: center;
-    
-
-}
-
-a img {
-	border: none;
-}
 
 /*beginning updated nav and ul, ol*/
 nav {
@@ -135,6 +124,17 @@ nav li, nav li a {
   padding: 1rem;
 }
 
+img {
+	border: none;
+	display: flex;
+    justify-content: center;
+    
+
+}
+
+a img {
+	border: none;
+}
 /*Footer section*/
 footer {
   background: #e0ffff;
