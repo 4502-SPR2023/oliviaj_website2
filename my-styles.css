@@ -75,11 +75,6 @@ nav a {
 
 a {
   text-decoration: none;
-  align-items: center;
-    border: 2px solid #ddd;
-  border-radius: 8px;
-  padding: 10px;
-  width: 300px;
 align-items: center;
 }
 
@@ -124,17 +119,6 @@ nav li, nav li a {
   padding: 1rem;
 }
 
-img {
-	border: none;
-	display: flex;
-    justify-content: center;
-    
-
-}
-
-a img {
-	border: none;
-}
 /*Footer section*/
 footer {
   background: #e0ffff;
