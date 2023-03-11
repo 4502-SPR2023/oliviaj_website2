@@ -60,6 +60,18 @@ a .headshot{
 	border: none;
 }
 
+img {
+	border: none;
+	display: flex;
+    justify-content: center;
+    
+
+}
+
+a img {
+	border: none;
+}
+
 /*beginning updated nav and ul, ol*/
 nav {
   color: #e0ffff;
