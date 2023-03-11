@@ -48,18 +48,6 @@ main {
   margin: 1rem auto;
 }
 
-.headshot {
-	border: none;
-	display: flex;
-    justify-content: center;
-    
-
-}
-
-a .headshot{
-	border: none;
-}
-
 img {
 	border: none;
 	display: flex;
