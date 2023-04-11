@@ -170,10 +170,6 @@ address {
 
 /*figure and .gallery-image styles*/
 
-.figcaption {
-  color: white;
- }
-
 .gallery-image {
   margin-block-start: 0;
   margin-block-end: 0;
