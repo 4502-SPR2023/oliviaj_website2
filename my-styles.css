@@ -169,6 +169,9 @@ address {
 }
 
 /*figure and .gallery-image styles*/
+figcaption {
+color: #FFFFFF
+}
 
 .gallery-image {
   margin-block-start: 0;
