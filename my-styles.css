@@ -173,10 +173,6 @@ figcaption {
 color: #FFFFFF
 }
 
-.p {
-  color: #FFFFFF
-}
-
 .gallery-image {
   margin-block-start: 0;
   margin-block-end: 0;
@@ -217,16 +213,7 @@ button {
   width: 100px;
   padding: 0.8rem 1rem;
   border-radius: 5px;
-}
-
-.button_previous {
-  margin-left: 50px
-}
-
-.button_next {
-  margin-right: 50px
-}
-
+  
 /*When the browser is at least 555px wide*/
 @media (min-width: 555px) {
 
