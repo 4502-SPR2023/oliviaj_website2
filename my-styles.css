@@ -219,6 +219,14 @@ button {
   border-radius: 5px;
 }
 
+.button_previous {
+  margin-left: 50px
+}
+
+.button_next {
+  margin-right: 50px
+}
+
 /*When the browser is at least 555px wide*/
 @media (min-width: 555px) {
 
