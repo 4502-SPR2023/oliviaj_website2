@@ -173,6 +173,10 @@ figcaption {
 color: #FFFFFF
 }
 
+p {
+  color: #FFFFFF
+}
+
 .gallery-image {
   margin-block-start: 0;
   margin-block-end: 0;
@@ -194,6 +198,7 @@ color: #FFFFFF
   margin-top: 1rem;
   border: none;
     justify-content: center;
+  color: #FFFFFF
 }
 
 .hideThis {
