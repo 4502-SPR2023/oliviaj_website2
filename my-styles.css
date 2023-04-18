@@ -225,6 +225,8 @@ button {
   }
 
   .media-list .text-holder {
+     display: flex;
+    flex-direction: row;
     width: calc(100% - 250px);
   }
 
