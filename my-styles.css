@@ -216,18 +216,12 @@ button {
   
 /*When the browser is at least 800px wide*/
 @media (min-width: 800px) {
- 
-  .media-holder {
-    flex-direction: row;
-  }
   
   .image-holder {
     width: 250px;
   }
 
   .media-list .text-holder {
-     display: flex;
-    flex-direction: row;
     width: calc(100% - 250px);
   }
 
