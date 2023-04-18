@@ -117,7 +117,7 @@ li {
 nav li, nav li a {
   width: 100%;
   text-align: center;
-  display: flex;
+  display: inline;
   justify-content: center;
   align-items: center;
 }
