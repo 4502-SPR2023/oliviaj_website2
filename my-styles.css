@@ -84,6 +84,8 @@ nav a {
 a {
   text-decoration: none;
 align-items: center;
+  display: flex;
+  flex-direction: row;
 }
 
 h1 { 
