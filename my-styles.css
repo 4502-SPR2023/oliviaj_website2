@@ -141,22 +141,23 @@ footer {
 
 /*Media sections*/
 .location-holder, .media-holder {
+  color:#e0ffff;
   width: 100%;
   margin: 4rem 0;
- flex-direction: column;
+  display: flex;
+  flex-direction: column;
   gap: 1.2rem;
   box-sizing: border-box;
-  color:#e0ffff;
 }
 
 .image-holder, .text-holder {
+  color:#e0ffff;
   width: 100%;
   padding: 0;
   margin: 0;
-  float: left;
-   flex-direction: column;
+  display: flex;
+  flex-direction: column;
   box-sizing: border-box;
-  color:#e0ffff;
 }
 
 .image-holder img {
