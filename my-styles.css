@@ -31,12 +31,12 @@ font-size: 20px;
 body { 
      margin: 0px;
     font-family: 'Playfair Display', serif;
+  font-size: 20px;
   background-image: url("img/floral-pattern.jpg");
     background-position: center, center; 
     background-repeat: no-repeat; 
     background-attachment: fixed; 
     background-size: cover; 
-  font-size: 20px;
 }
 
 main {
@@ -99,6 +99,7 @@ h2 {
   margin: 0;
   font-weight: 700;
   font-style: italic;
+  font-size: 20px;
   color: #e0ffff;
 }
 
