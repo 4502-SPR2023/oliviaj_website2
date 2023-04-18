@@ -143,7 +143,7 @@ footer {
 .location-holder, .media-holder {
   width: 100%;
   margin: 4rem 0;
-  display: inline;
+ flex-direction: column;
   gap: 1.2rem;
   box-sizing: border-box;
   color:#e0ffff;
@@ -153,9 +153,8 @@ footer {
   width: 100%;
   padding: 0;
   margin: 0;
-   display: inline-block;
   float: left;
-  flex-direction: row;
+   flex-direction: column;
   box-sizing: border-box;
   color:#e0ffff;
 }
