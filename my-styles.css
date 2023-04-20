@@ -222,7 +222,8 @@ button:hover {
   background-color: #e0ffff;
 }
 /*When the browser is at least 800px wide*/
-@media (min-width: 800px) {
+}
+@media only screen and (min-width: 800px) {
   
   .image-holder {
     width: 250px;
@@ -235,15 +236,14 @@ button:hover {
   nav ul {
     display: flex;
     flex-direction: row;
-    flex-wrap: wrap;
   }
   nav li {
     width: 25%;
   }
 }
 
- /*When the browser is at least 555px wide*/
-@media (min-width: 555px) {
+ /*When the browser is at least 555px wide and max 799px*/
+@media (min-width: 555px) and (max-width: 799px) {
 
   .media-holder {
     flex-direction: row;
@@ -260,11 +260,31 @@ button:hover {
   nav ul {
     display: flex;
     flex-direction: row;
-    flex-wrap: wrap;
   }
 
   nav li {
-    width: 50%;
+    width: 25%;
   }
 
-}
+@media screen and (max-width: 554px){
+   
+ .media-holder {
+    flex-direction: row;
+  }
+
+  .image-holder {
+    width: 70%;
+  }
+
+  .media-list .text-holder {
+    width: 60%;
+  }
+
+  nav ul {
+    display: flex;
+    flex-direction: row;
+  }
+
+  nav li {
+    width: 25%;
+  }
