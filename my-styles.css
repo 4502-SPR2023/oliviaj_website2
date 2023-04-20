@@ -203,7 +203,7 @@ color: #FFFFFF
 
 button {
   background-color: #e0ffff;
-  border: none;
+  border: 4px double #cccccc;
   color: #002147;
   text-align: center;
   text-decoration: none;
@@ -213,7 +213,14 @@ button {
   width: 100px;
   padding: 0.8rem 1rem;
   border-radius: 5px;
+  border-radius: 10px;
+  cursor: pointer; /* add this line */
+  margin: 5px; /* add this line */
+}
   
+button:hover {
+  background-color: #e0ffff;
+}
 /*When the browser is at least 800px wide*/
 @media (min-width: 800px) {
   
