@@ -167,11 +167,12 @@ footer {
 }
 
 .text-holder { 
-    color:#e0ffff;
+  color:#e0ffff;
    width: 100%;
   padding: 0;
   margin: 0;
-  display: flex;
+ display: inline-block;
+  float: right;
   flex-direction: column;
   box-sizing: border-box;
 }
