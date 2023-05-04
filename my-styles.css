@@ -150,8 +150,7 @@ footer {
   box-sizing: border-box;
 }
 
-.image-holder, .text-holder {
-  color:#e0ffff;
+.image-holder {
    width: 100%;
   padding: 0;
   margin: 0;
@@ -167,6 +166,16 @@ footer {
   margin: 0 auto;
 }
 
+.text-holder { 
+    color:#e0ffff;
+   width: 100%;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  box-sizing: border-box;
+}
+  
 address {
   font-style: normal;
 }
