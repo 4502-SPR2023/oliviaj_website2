@@ -152,11 +152,11 @@ footer {
 
 .image-holder, .text-holder {
   color:#e0ffff;
-  width: 100%;
+   width: 100%;
   padding: 0;
   margin: 0;
   display: flex;
-    flex-direction: column;
+  flex-direction: column;
   box-sizing: border-box;
 }
 
